@@ -11,6 +11,9 @@ const Tech = () => {
       }}
     >
       <h3>This is the Tech Inventory</h3>
+      <div>Available items</div>
+      <li>Earphones</li>
+      <li>USBs</li>
     </div>
   );
 };

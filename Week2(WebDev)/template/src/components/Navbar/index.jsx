@@ -24,6 +24,9 @@ const Navbar = () => {
           <NavLink to='/Tech' activeStyle>
             Tech Inventory
           </NavLink>
+          <NavLink to='/ShoppingCart' activeStyle>
+            Cart
+          </NavLink>
           <NavLink to='/ContactUS' activeStyle>
             Contact Us
           </NavLink>

@@ -1,4 +1,6 @@
 import React from 'react';
+import { useState, useEffect } from "react";
+import Popup from 'reactjs-popup';
   
 const Music = () => {
   return (
@@ -11,6 +13,9 @@ const Music = () => {
       }}
     >
       <h3>This is the Music Inventory.</h3>
+      <div>Available items</div>
+      <li>Guitars</li>
+      <li>Drums</li>
     </div>
   );
 };

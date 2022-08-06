@@ -11,6 +11,9 @@ const Sports = () => {
       }}
     >
       <h3>This is the Sports Inventory</h3>
+      <div>Available items</div>
+      <li>Cricket bats</li>
+      <li>Tennis balls</li>
     </div>
   );
 };
